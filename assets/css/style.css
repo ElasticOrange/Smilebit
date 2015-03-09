@@ -201,7 +201,7 @@ input {
 
 /* HEADER SECTION */
 #h {
-	background: url(../img/header.jpg) no-repeat center top;
+	background: url(../img/shutterstock_147266498.jpg) no-repeat center top;
 	padding-top: 5px;
 	background-attachment: relative;
 	background-position: center center;
@@ -230,6 +230,11 @@ input {
 	font-weight: 900;
 	color: white;
 	letter-spacing: 1px;
+}
+
+.logo-image
+{
+	width: 150px;
 }
 
 #h h3 {
