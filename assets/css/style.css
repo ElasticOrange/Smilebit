@@ -17,14 +17,14 @@
 @import url("prettyPhoto.css") screen;
 @import url("hoverex-all.css") screen;
 
-* { 
+* {
 	margin: 0;
 	padding: 0px;
     font-family: 'Lato', sans-serif;
-} 
-body { 
-	background: #fff; 
-	margin: 0; 
+}
+body {
+	background: #fff;
+	margin: 0;
 	color: #5a5a5a;
 }
 
@@ -34,15 +34,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-p { 
-	padding: 0; 
-	margin-bottom: 12px; 
+p {
+	padding: 0;
+	margin-bottom: 12px;
     font-family: 'Lato', sans-serif;
 	font-weight: 300;
-	font-size: 18px; 
+	font-size: 18px;
 	line-height: 28px;
-	color: #666; 
-	margin-top: 10px; 
+	color: #666;
+	margin-top: 10px;
 }
 
 html,
@@ -92,10 +92,10 @@ body {
 	padding: 0;
 	margin: 0;
 }
-a { 
+a {
 	padding: 0;
 	margin: 0;
-	text-decoration: none; 
+	text-decoration: none;
 	-webkit-transition: background-color .4s linear, color .4s linear;
 	-moz-transition: background-color .4s linear, color .4s linear;
 	-o-transition: background-color .4s linear, color .4s linear;
@@ -201,13 +201,14 @@ input {
 
 /* HEADER SECTION */
 #h {
-	background: url(../img/shutterstock_147266498_2.png) no-repeat center top;
+	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7) ), url(../img/SplitShire-7926.jpg);
+	background-position: no-repeat center top;
 	padding-top: 5px;
 	background-attachment: relative;
 	background-position: center center;
 	min-height: 700px;
 	width: 100%;
-	
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -310,7 +311,7 @@ input {
 	min-height: 450px;
 	width: 100%;
 	color: white;
-	
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -352,7 +353,7 @@ input {
 	background-position: center center;
 	min-height: 700px;
 	width: 100%;
-	
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
