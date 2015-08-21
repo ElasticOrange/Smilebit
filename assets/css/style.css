@@ -303,7 +303,7 @@ input {
 
 /* CONTACT SEPARATOR */
 #sep {
-	background: url(../img/sep.jpg) no-repeat center top;
+	background: url(../img/smilebit-despre.jpg) no-repeat center top;
 	padding-top: 100px;
 	background-attachment: relative;
 	background-position: center center;
@@ -330,6 +330,7 @@ input {
 
 /* FOOTER */
 #f {
+	display: none;
 	padding-top: 25px;
 	padding-bottom: 25px;
 	background-color: #22A7F0;
