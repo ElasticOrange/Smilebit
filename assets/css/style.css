@@ -409,3 +409,12 @@ ul {
     text-align: left;
     line-height: 30px;
 }
+
+.white-stripe {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	height: 2px;
+	background-color: #ffffff;
+	width: 100%;
+}
