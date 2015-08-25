@@ -418,3 +418,116 @@ ul {
 	background-color: #ffffff;
 	width: 100%;
 }
+
+.modal {
+	display: none;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 3;
+	top: -900px;
+	width: 400px;
+	height: 339px;
+	background-color: #ffffff;
+	border: 1px solid black;
+	box-shadow: 0 0 20px 0 #222;
+    -webkit-box-shadow: 0 0 20px 0 #222;
+    -moz-box-shadow: 0 0 20px 0 #222;
+}
+
+.mailsend {
+	border-style: solid;
+	width: 270px;
+	height: 23px;
+	left: 24px;
+	position: absolute;
+}
+
+.msg-body {
+    margin: 0px;
+    width: 350px;
+    height: 152px;
+    top: 140px;
+    left: 24px;
+    position: absolute;
+    font-size: 11px;
+    resize: none;
+    padding: 20px 0 0 20px;
+}
+
+.modal-trimite {
+	background-color:  #cc0000;
+	width: 70px;
+	height: 18px;
+	position: absolute;
+	top: 305px;
+	left: 24px;
+	display: table;
+    cursor: pointer;
+}
+
+.modal-send {
+	color: #ffffff;
+	font-weight: 700;
+	font-size: 15px;
+	display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.grey-mesaj {
+	color: #ffffff;
+	font-weight: 700;
+	font-size: 13px;
+	display: table-cell;
+    vertical-align: middle;
+}
+
+.grey {
+    background-color: #7e7e7e;
+    width: 351px;
+    height: 13px;
+    position: absolute;
+    top: 124px;
+    left: 24px;
+    display: table;
+}
+
+#modal-background {
+	display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    opacity: .90;
+    -webkit-opacity: .5;
+    -moz-opacity: .5;
+    filter: alpha(opacity=90);
+    z-index: 3;
+}
+
+a.boxclose{
+    position: absolute;
+	top: 3px;
+	right: 3px;
+    cursor:pointer;
+    color: #fff;
+    border: 1px solid #AEAEAE;
+    border-radius: 30px;
+    background: #605F61;
+    font-size: 31px;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 0px;
+    padding: 11px 3px;
+}
+
+.boxclose:before {
+    content: "×";
+}
+
+.emailinput {
+	top: 70px;
+}

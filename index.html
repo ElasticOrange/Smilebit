@@ -216,11 +216,23 @@
           <div class="col-md-8 col-md-offset-2">
             <h1>Date de contact:<br/></h1><br/>
             <h4 class="mb"><strong>contact@smilebit.ro<br/><br/>Andrei Petcu  +40721.229.618</strong></h4>
-            <!-- <button class="btn btn-conf btn-clear">Request for Information</button> -->
+            <button id="request-contact" class="btn btn-conf btn-clear">Request for Information</button>
           </div>
         </div><!--/row-->
       </div><!--/container-->
     </div><!--/.sep-->
+      <div id="modal-background"></div>
+        <div class="modal">
+            <form action="mail.php" data-modal="true" method="post"><br />
+                <a class="boxclose" id="boxclose"></a>
+                <input type="text" data-myname="true" class="mailsend" name="nume" placeholder="Numele"><br /><br />
+                <input type="email" data-myemail="true" class="mailsend emailinput" name="email" placeholder="Adresa ta de email">
+                <div class="grey"><span class="grey-mesaj">Mesaj</span></div>
+                <textarea class="msg-body" name="bodyMessage"></textarea>
+                <div type="submit" data-email="true" class="modal-trimite"><span class="modal-send">Trimite</span></div>
+
+            </form>
+        </div>
 
     <div id="f">
       <div class="container">
@@ -246,6 +258,7 @@
     <script src="assets/js/jquery.prettyPhoto.js"></script>
     <script src="assets/js/jquery.isotope.min.js"></script>
     <script src="assets/js/custom.js"></script>
+    <script src="assets/js/form-submit.js"></script>
 
 
     <script>
