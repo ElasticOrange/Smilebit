@@ -17,9 +17,9 @@ $(document).ready(function(){
 
 	function ajax_email(e)
 	{
-		var p;
+		var date;
 		e.preventDefault();
-		p = {
+		date = {
 			nume: $('[data-myname=true]').val(),
 			email: $('[data-myemail=true]').val(),
 			bodyMessage: $('.msg-body').val(),
@@ -28,7 +28,7 @@ $(document).ready(function(){
 		{
 			url: $('[data-modal=true]').attr('action'),
 			type: $('[data-modal=true]').attr('method'),
-			data: p,
+			data: date,
 			content: 'json',
 			success: function(s)
             {
@@ -37,19 +37,19 @@ $(document).ready(function(){
 		        });
                 console.log("OK");
             },
-            error: function(p)
+            error: function(date)
             {
-                if (typeof p.responseJSON.nume != 'undefined')
+                if (typeof date.responseJSON.nume != 'undefined')
                 {
                     console.log('Nu exista nume');
                 }
 
-                if (typeof p.responseJSON.email != 'undefined')
+                if (typeof date.responseJSON.email != 'undefined')
                 {
                     console.log('Nu exista email');
                 }
 
-                console.log(p);
+                console.log(date);
             }
 		});
 	};
