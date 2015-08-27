@@ -8,7 +8,7 @@ $(document).ready(function(){
     });
 
 	$('#boxclose').click(function(){
-		$('.modal').animate({'top':'-2900px'}, 500, function(){
+		$('.modal').animate({'top':'-4900px'}, 500, function(){
             $('#modal-background').fadeOut('fast');
         });
 	});

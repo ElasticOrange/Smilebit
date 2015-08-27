@@ -250,6 +250,7 @@ input {
 #g {
 	padding-top: 50px;
 	padding-bottom: 50px;
+	max-height: 1100px;
 }
 
 .portfolio {
@@ -275,8 +276,8 @@ input {
 .tpl6 .dmbutton
 {
 	display:inline-block;
-	margin:30px 5px 20px 5px;
-	font-size:13px;
+	margin:80px 5px 20px 5px;
+	font-size:19px;
 }
 
 .tpl6 .bg
@@ -530,4 +531,14 @@ a.boxclose{
 
 .emailinput {
 	top: 70px;
+}
+
+.title-team {
+	margin-top: 110px;
+}
+
+div.enums>ul>li {
+    font-size: 18px;
+    margin-left: 10px;
+    padding: 5px 0;
 }

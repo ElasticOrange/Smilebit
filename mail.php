@@ -15,7 +15,7 @@ $bodyMessage = strip_tags($_POST['bodyMessage']);
 print_r($fromName."\n");
 print_r($fromEmail."\n");
 print_r($bodyMessage."\n");
-print_r($myemail."\n");
+// print_r($myemail."\n");
 
 if (isset($_POST['email']) && !empty($_POST['email'])) {
 
