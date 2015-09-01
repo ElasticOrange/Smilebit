@@ -5,7 +5,7 @@ require 'vendor/autoload.php';
 $dotenv = new Dotenv\Dotenv(__DIR__);
 $dotenv->load();
 
-$myemail = 'mihaita.barbu@zoho.com';
+$myemail = 'contact@smilebit.ro';
 
 
 $fromName = strip_tags($_POST['nume']);
